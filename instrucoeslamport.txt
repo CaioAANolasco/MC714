@@ -1,0 +1,8 @@
+2
+exec 1
+exec 2
+send 1 2 "olá"
+send 1 2 "mensagem"
+exec 2
+send 2 1 "mensagem 2 para 1"
+end
